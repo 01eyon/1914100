@@ -521,6 +521,7 @@
     8
     9
     10
+
 **19. Program to Multiply two Floating Point Numbers:-**
 
     #include<stdio.h>
@@ -539,4 +540,25 @@
     Enter the first value:2.5
     Enter the second value:1.6
     The Multiplication of two Floating Point Numbers is 4.00
+
+**20. Program to Check Whether a Number is Even or Odd using if else statement:-**
+
+    #include<stdio.h>
+    int main()
+    {
+        int a;
+        printf("Enter any number:");
+        scanf("%d",&a);
+        if(a%2==0)
+        {
+            printf("%d is an even number",a);
+        }
+        else
+        {
+            printf("%d is an odd number",a);
+        }
+    }
+    Output:-
+    Enter any number:100
+    100 is an even number
 
