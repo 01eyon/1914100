@@ -853,3 +853,66 @@
     8    
     9
 
+**30. Program to find Factorial:-**
+
+    #include<stdio.h>
+    long factorial(int);
+    int main()
+    { 
+       int x;
+       long fact = 1;
+       printf("\nEnter a number to calculate it's factorial: ");
+       scanf("%d", &x);
+       printf("%d! = %ld\n", x, factorial(x));
+       return 0;  
+       long factorial(int x)
+       {
+          int c;
+          long ans=1;
+          for (c=x; c>1; c--)
+          { 
+             ans *= c;
+          }
+             return ans;
+    }
+    Output:-
+    Enter a number to calculate it's factorial: 6
+    6! = 720
+    Enter a number to calculate it's factorial: 12
+    12! = 479001600
+    
+**31. Program to Store Information of a Student using Structure:-**
+
+    #include<stdio.h>
+    struct student
+    {
+       char name[50];
+       long int ph,marks;
+    };
+    int main()
+    {
+       int i,N;
+       printf("\nEnter the information of student: \n");
+       struct student s;
+       printf("Enter Name: ");
+       scanf("%s", &s.name);
+       printf("Enter Phone Number: ");
+       scanf("%ld", &s.ph);
+       printf("Enter Marks: ");
+       scanf("%d", &s.marks);
+       printf("\nEntered Information is: \n");
+       printf("Name: %s\n", s.name);
+       printf("Age: %ld\n", s.ph);
+       printf("Marks: %d\n", s.marks);
+       return 0;
+    }
+    Output:-
+    Enter the information of student: 
+    Enter Name: Sarvanshdeep Singh Sahota
+    Enter Phone Number: 9877703007
+    Enter Marks: 60
+
+    Entered Information is: 
+    Name: Sarvanshdeep Singh Sahota
+    Age: 9877703007
+    Marks: 60
