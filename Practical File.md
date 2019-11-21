@@ -630,4 +630,28 @@
     13
     21
     34
+**23. Program swap two numbers using call by value:-**
 
+    #include <stdio.h>
+    int main()
+    {
+        int x, y, t;
+        printf("\n\nEnter two integers: ");
+        scanf("%d %d", &x, &y);
+        printf("\n\nBefore Swapping: \nFirst integer = %d\nSecond integer = %d\n", x, y);
+        t = x;
+        x = y;
+        y = t;
+        printf("\n\nAfter Swapping: \nFirst integer = %d\nSecond integer = %d\n", x, y);
+        return 0;
+    }
+    Output:-
+    Enter two integers: 1  56
+
+    Before Swapping:
+    First integer = 1
+    Second integer = 56
+
+    After Swapping:
+    First integer = 56
+    Second integer = 1
