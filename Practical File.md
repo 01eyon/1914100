@@ -686,3 +686,34 @@
     x = 98
     y = 45
 
+**25. Program to implement Linear search for One Dimensional array:-**
+
+    #include<stdio.h>
+    int main()
+    {
+       int array[12]={1,5,9,7,3,82,46,23,23,5,10,3};
+       int size=12,flag=0,item,a;
+       printf("\nEnter the Value: ");
+       scanf("%d", &a);
+       for(int i=0;i<size;i++)
+       {
+          if(a==array[i])
+          {
+                flag=a;
+                break;
+          }
+       }
+      
+       if(flag==a)
+       printf("\nSearch is Sucessfull \n%d Element is present in the array\n",a);
+       else
+       printf("\nSearch is Unsucessfull \n%d Element is not present in the array\n",a);
+       return 0;
+    }
+    Output of the program
+    First Case
+    Enter the Value to be searched: 5
+    Search is Sucessfull 5 Element is present in the array
+    Second Case
+    Enter the Value to be searched: 2
+    Search is Unsucessfull 2 Element is not present in the array
