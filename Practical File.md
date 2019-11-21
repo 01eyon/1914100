@@ -772,3 +772,39 @@
     9
     11
     13
+
+**28. Program of a Simple Calculator:-**
+
+    #include<stdio.h>
+    int main()
+    {
+       char operator;
+       float x,y;
+       printf("\n\nEnter an operator (+, -, *, /): ");
+       scanf("%c", &operator);
+       printf("Enter two operands: ");
+       scanf("%f %f", &x, &y);
+       switch(operator)
+       {
+            case '+':
+            printf("\n%.2f + %.2f = %.2f", x, y, x+y);
+            break;
+            case '-':
+            printf("\n%.2f - %.2f = %.2f", x, y, x-y);
+            break;
+            case '*':
+            printf("\n%.2f * %.2f = %.2f", x, y, x*y);
+            break;
+            case '/':
+            printf("\n%.2f / %.2f = %.2f", x, y, x/y);
+            break;
+            default:
+            printf("\nError! operator is not correct");
+       }
+    return 0;
+    }
+    Output:-
+    Enter an operator (+, -, *, /): *
+    Enter two operands: 146  21
+    146.00 * 21.00 = 3066.00
+
