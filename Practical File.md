@@ -718,4 +718,29 @@
     Enter the Value to be searched: 2
     Search is Unsucessfull 2 Element is not present in the array
     
-**26. 
+**26. Program to print Even numbers using while loop:-**
+
+    #include<stdio.h>
+    int main()
+    {
+       int x=1,N;
+       printf("\n\nEntere the Integer: ");
+       scanf("%d", &N);
+       while(x<=N)
+      {
+         if(x%2==0)
+         printf("\n%d", x);
+         else
+         printf("");
+         x++;
+      }
+    return 0;
+    }
+    Output:-
+    Entere the Integer: 10
+    2
+    4
+    6
+    8  
+    10
+
