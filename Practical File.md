@@ -1,10 +1,10 @@
+![College Logo](https://www.gndec.ac.in/logo.png)
 #          **PROGRAMMING FOR PROGRAM SOLVING ESC-18105** 
 ##         **Sarvanshdeep Singh Sahota**
 ##         **Civil B2** 
 ##         **1914100**
 #          **GURU NANAK DEV ENGINEERING COLLEGE, LUDHIANA**
 ##         **Department of Civil Engineering**
-![LOGO](https://raw.githubusercontent.com/01eyon/1914100/master/Capture.PNG)
 
 **1. To Store the of marks scored by students**
        
