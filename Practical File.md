@@ -808,7 +808,7 @@
     Enter two operands: 146  21
     146.00 * 21.00 = 3066.00
 
-**29. Program to implement Bubble Sort:-
+**29. Program to implement Bubble Sort:-**
 
     #include <stdio.h>
     int main()
