@@ -561,4 +561,36 @@
     Output:-
     Enter any number:100
     100 is an even number
+    
+**21. Program to take 5 values from the user and store them in an array and Print the elements stored in the array:-**
 
+    #include<stdio.h>
+    int main()
+    {
+        int x,array[5];
+        printf("\n");
+        for(x=1;x<=5;x++)
+        {
+           printf("Enter [%d] element: ", x);
+           scanf("%d", &array[x]); 
+        }
+        for(x=1;x<=5;x++)
+        {
+           printf("\nElement [%d] = %d", x, array[x]); 
+        }
+    return 0;
+    }
+    Output:-
+
+    Enter [1] element: 4
+    Enter [2] element: 5
+    Enter [3] element: 6
+    Enter [4] element: 9
+    Enter [5] element: 2
+
+    Element [1] = 4
+    Element [2] = 5
+    Element [3] = 6
+    Element [4] = 9
+    Element [5] = 2
+    
