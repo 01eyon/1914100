@@ -744,3 +744,31 @@
     8  
     10
 
+**27.  Program to print Odd numbers using do while loop:-**
+
+    #include<stdio.h>
+    int main()
+    {
+       int x=1,N;
+       printf("\n\nEntere the Integer: ");
+       scanf("%d", &N);
+       do
+       {
+           if(x%2!=0)
+           printf("\n%d", x);
+           else
+           printf("");
+           x++;
+       }
+       while(x<=N);
+    return 0;
+    }
+    Output:-
+    Enter the Integer: 13
+    1
+    3
+    5
+    7
+    9
+    11
+    13
