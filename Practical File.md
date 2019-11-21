@@ -521,5 +521,23 @@
     8
     9
     10
+**19. Program to Multiply two Floating Point Numbers:-**
 
+    #include<stdio.h>
+    int main()
+    {
+        float a, b, c;
+        printf("Enter the first value:",a);
+        scanf("%f",&a);
+        printf("Enter the second value:",b);
+        scanf("%f",&b);
+        c=a*b;
+        printf("The Multiplication of two Floating Point Numbers is %.2f",c);
+        return 0;
+    }
+
+    Output:-
+    Enter the first value:2.5
+    Enter the second value:1.6
+    The Multiplication of two Floating Point Numbers is 4.00
 
