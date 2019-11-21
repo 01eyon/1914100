@@ -535,7 +535,6 @@
         printf("The Multiplication of two Floating Point Numbers is %.2f",c);
         return 0;
     }
-
     Output:-
     Enter the first value:2.5
     Enter the second value:1.6
