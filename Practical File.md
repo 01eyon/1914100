@@ -914,5 +914,5 @@
 
     Entered Information is: 
     Name: Sarvanshdeep Singh Sahota
-    Age: 9877703007
+    Age: 18
     Marks: 60
